@@ -1,0 +1,581 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Mojave's Advanced Placement (AP) Program</title>
+        <meta name="description" content="An overview of the AP programs offered at Mojave High School">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
+        
+        <style>
+            *, *:after, *:before {
+                box-sizing: border-box;
+            }
+            
+            html, body {
+				font-family: 'Lora', sans-serif;
+				font-size: 1.1em;
+            }
+
+            p {
+                margin-top: 0;
+                margin-bottom: 22px;
+                font-size: 0.85em;
+                line-height: 1.5em;
+            }
+            
+            p:last-of-type {
+                margin-bottom: 0;
+            }
+
+            .container {
+                width: 800px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+            
+            .content {
+	            width: 80%;
+	            margin-left: 20%;
+            }
+            
+            .sidebar {
+	            border-top: 3px solid green;
+	            border-bottom: 3px solid green;
+	            padding: 14px 0;
+	            list-style: none;
+	            position: fixed;
+	            top: 32px;
+	            width: 10%;
+            }
+            
+            .sidebar > .divider {
+	            font-size: 0.8em;
+	            font-weight: 700;
+            }
+            
+            .sidebar > .link {
+	            font-size: 0.7em;
+	            padding-left: 10px;
+	            margin: 4px 0;
+            }
+            
+            .sidebar > .link > a {
+	            color: green;
+	            text-decoration: none;
+            }
+            
+            .sidebar > .link > a:hover {
+				color: rgba(0, 128, 0, 0.70);
+            }
+            
+            .sidebar > .link > a:hover::before {
+	            content: ">>";
+				margin-right: 5px;
+            }
+            
+            .dept {
+	            margin-bottom: 40px;
+            }
+            
+            .dept h3 {
+	            text-align: center;
+            }
+            
+            .course {
+	            margin-bottom: 40px;
+            }
+            
+            .course > .head {
+	            background-color: rgba(0, 128, 0, 0.25);
+	            margin-bottom: 8px;
+	            padding: 0 14px;
+	            border-bottom: 3px solid green;
+            }
+            
+            .course > .head > h4 {
+				margin: 12px 0;
+	            display: inline-block;
+            }
+            
+            .course > .head > .grade {
+	            margin-left: 14px;
+	            font-size: 0.75em;
+            }
+            
+            .course > .head > .portrait {
+				float: right;
+				position: relative;
+				top: -12px;
+				margin-right: 20px;
+            }
+            
+            .course > .head > .portrait:first-of-type {
+	            margin-right: 0;
+            }
+            
+            .course > .head > .portrait > img {
+				height: 80px;
+				border-radius: 100px;
+            }
+            
+            .course > .head > .portrait > .name {
+	            font-size: 0.90em;
+	            margin-left: 4px;
+            }
+            
+            .course > .body {
+	            padding: 0 14px;
+            }
+            
+            .course > .body > p > span.summer-work {
+	            color: red;
+	            display: block;
+				text-align: right;
+				font-size: 0.9em;
+				font-style: italic;
+            }
+       </style>
+    </head>
+    
+    <body>
+        <div class="container">
+	        <div class="sidebar-container">
+		        <ul class="sidebar">
+			        <li class="divider">English</li>
+			        <li class="link"><a href="#pre-ap-lit">Pre-AP Literature</a></li>
+			        <li class="link"><a href="#ap-lit">AP Literature</a></li>
+			        <li class="link"><a href="#ap-lang">AP Language</a></li>
+					<li class="divider">Mathematics</li>
+					<li class="link"><a href="#ap-calc">AP Calculus</a></li>
+					<li class="link"><a href="#ap-stats">AP Statistics</a></li>
+					<li class="divider">Science</li>
+					<li class="link"><a href="#ap-bio">AP Biology</a></li>
+					<li class="link"><a href="#ap-chem">AP Chemistry</a></li>
+					<li class="link"><a href="#ap-es">AP Environmental</a></li>
+					<li class="link"><a href="#ap-phys">AP Physics</a></li>
+					<li class="divider">Social Studies</li>
+					<li class="link"><a href="#ap-geo">AP Human Geo</a></li>
+					<li class="link"><a href="#ap-psych">AP Psychology</a></li>
+					<li class="link"><a href="#ap-world">AP World History</a></li>
+					<li class="link"><a href="#ap-ush">AP US History</a></li>
+					<li class="link"><a href="#ap-gov">AP Government</a></li>
+					<li class="divider">World Languages</li>
+					<li class="link"><a href="#ap-span">AP Spanish</a></li>
+		        </ul>
+	        </div>
+	        
+	        <div class="content">
+		        <h2>Advanced Placement (AP) Program</h2>
+				<p>
+					Welcome to Mojave High School's Advanced Placement (AP) Program! Here you and your student can learn
+					more about the 15 different AP programs offered across five disciplines. These college level courses
+					will challenge your student beyond the scope of a traditional high school class. Not only will your
+					student gain more in-depth knowledge about each subject, but they will also prepare to meet the
+					demands of current-day college courses. Just select a course name from the list on the left or
+					scroll down to browse all of the offered courses.
+				</p>
+				
+				<section class="dept">
+					<h3>English</h3>
+					<div class="course" id="pre-ap-lit">
+						<div class="head">
+							<h4>Pre-AP Literature</h4>
+							<span class="grade">10<sup>th</sup> Grade</span>
+							<div class="portrait">
+								<img src="http://iamrattlernation.com/ourpages/auto/profiles/716177/MOJAVEHS1477349460479.jpg">
+								<span class="name">Wildman</span>
+							</div>
+						</div>
+						<div class="body">
+							<p>
+								English 10 Pre-AP (Honors) is a course designed for students who will learn a variety of
+								skills and methods to help prepare them to be successful in the AP English Literature
+								and Composition and AP English Language and Composition courses, offered in the 11th and
+								12th grades respectively. Within this course, students will be required to read and
+								critically analyze a plethora of literary works in both the fiction and nonfiction
+								genres, while developing a wide range of written assignments in order to help build on
+								their writing and analysis skills. Additionally, students will also participate in a
+								range of collaborative discourse, as well as multi-media presentations in order to
+								refine and demonstrate their speaking and listening skills; completion of summer work is
+								required for this course.
+								<span class="summer-work">This course has summer work.</span>
+							</p>
+						</div>
+					</div>
+					
+					<div class="course" id="ap-lit">
+						<div class="head">
+							<h4>AP English Literature and Composition</h4>
+							<span class="grade">11<sup>th</sup> Grade</span>
+							<div class="portrait">
+								<img src="http://iamrattlernation.com/ourpages/auto/profiles/716177/MOJAVEHS1477349460479.jpg">
+								<span class="name">Wildman</span>
+							</div>
+						</div>
+						<div class="body">
+							<p>
+								The AP English Literature and Composition course aligns to an introductory college-level
+								literary analysis course. The course engages students in the close reading and critical
+								analysis of imaginative literature to deepen their understanding of the ways writers use
+								language to provide both meaning and pleasure. As they read, students consider a work’s
+								structure, style, and themes, as well as its use of figurative language, imagery,
+								symbolism, and tone. Writing assignments include expository, analytical, and
+								argumentative essays that require students to analyze and interpret literary works.
+								Students should be able to read and comprehend college-level texts and apply the
+								conventions of Standard Written English in their writing. 
+							</p>
+						</div>
+					</div>
+					
+					<div class="course" id="ap-lang">
+						<div class="head">
+							<h4>AP English Language and Composition</h4>
+							<span class="grade">12<sup>th</sup> Grade</span>
+							<div class="portrait">
+								<img src="http://iamrattlernation.com/ourpages/auto/profiles/716147/MOJAVEHS1477347592662.jpg">
+								<span class="name">Pugmire</span>
+							</div>
+						</div>
+						<div class="body">
+							<p>
+								The AP English Language and Composition course aligns to an introductory college-level
+								rhetoric and writing curriculum, which requires students to develop evidence-based
+								analytic and argumentative essays that proceed through several stages or drafts.
+								Students evaluate, synthesize, and cite research to support their arguments. Throughout
+								the course, students develop a personal style by making appropriate grammatical choices.
+								Additionally, students read and analyze the rhetorical elements and their effects in
+								non-fiction texts, including graphic images as forms of text, from many disciplines and
+								historical periods.
+							</p>
+						</div>
+					</div>
+				</section>
+				
+				<section class="dept">
+					<h3>Mathematics</h3>
+					<div class="course" id="ap-calc">
+						<div class="head">
+							<h4>AP Calculus</h4>
+							<span class="grade">11–12<sup>th</sup> Grade</span>
+							<div class="portrait">
+								<img src="http://iamrattlernation.com/ourpages/auto/profiles/716078/MOJAVEHS1477339226020.jpg">
+								<span class="name">Eichenser</span>
+							</div>
+						</div>
+						<div class="body">
+							<p>
+								AP Calculus AB is roughly equivalent to a first semester college calculus course devoted
+								to topics in differential and integral calculus. The AP course covers topics in these
+								areas, including concepts and skills of limits, derivatives, definite integrals, and the
+								Fundamental Theorem of Calculus. You’ll learn how to approach calculus concepts and
+								problems when they are represented graphically, numerically, analytically, and verbally,
+								and how to make connections amongst these representations. You will learn how to use
+								technology to help solve problems, experiment, interpret results, and support
+								conclusions.
+								<span class="summer-work">This course has summer work.</span>
+							</p>
+						</div>
+					</div>
+					
+					<div class="course" id="ap-stats">
+						<div class="head">
+							<h4>AP Statistics</h4>
+							<span class="grade">11–12<sup>th</sup> Grade</span>
+							<div class="portrait">
+								<img src="http://iamrattlernation.com/ourpages/auto/profiles/716184/MOJAVEHS1477349706162.jpg">
+								<span class="name">Zinsli</span>
+							</div>
+						</div>
+						<div class="body">
+							<p>
+								AP Statistics is a 4th year math course designed under the Advanced Placement Statistics
+								guidelines. Students who score well on the AP exam can earn college credit (please check
+								the college you will be attending to determine score requirements and course
+								replacement). Most students will not have been exposed to statistics curriculum in their
+								high school years as well as writing for this course. All students who attend college
+								will be required to take a statistics course so it is a wise choice to take this class
+								in preparation for the college course. All medical and science degrees will require
+								statistics.
+							</p>
+							<p>
+								Requirements: A-B in Algebra II, A-C in Precalculus along with a recommendation from
+								your current math teacher. You need not be “good” in math, however behavior expectations
+								and attendance are crucial to doing well in an AP course.
+							</p>
+							<p>
+								This class complements AP Psychology, AP Biology, AP literature and AP Language.
+							</p>
+							</p>
+						</div>
+					</div>
+				</section>
+				
+				<section class="dept">
+					<h3>Science</h3>
+					<div class="course" id="ap-bio">
+						<div class="head">
+							<h4>AP Biology</h4>
+							<span class="grade">11–12<sup>th</sup> Grade</span>
+							<div class="portrait">
+								<img src="http://iamrattlernation.com/ourpages/auto/profiles/716040/MOJAVEHS1477336467179.jpg">
+								<span class="name">Anstett</span>
+							</div>
+						</div>
+						<div class="body">
+							<p>
+								The AP Biology course is designed to enable you to develop advanced inquiry and
+								reasoning skills, such as designing a plan for collecting data, analyzing data, applying
+								mathematical routines, and connecting concepts in and across domains. The result will be
+								readiness for the study of advanced topics in subsequent college courses — a goal of
+								every AP course.
+								<span class="summer-work">This course has summer work.</span>
+							</p>
+						</div>
+					</div>
+					
+					<div class="course" id="ap-chem">
+						<div class="head">
+							<h4>AP Chemistry</h4>
+							<span class="grade">11–12<sup>th</sup> Grade</span>
+							<div class="portrait">
+								<img src="http://iamrattlernation.com/ourpages/auto/profiles/716125/MOJAVEHS1446575893388.jpg">
+								<span class="name">May</span>
+							</div>
+							<div class="portrait">
+								<img src="http://iamrattlernation.com/ourpages/auto/profiles/716083/MOJAVEHS1477339328949.jpg">
+								<span class="name">E-K</span>
+							</div>
+						</div>
+						<div class="body">
+							<p>
+								???
+								<span class="summer-work">This course has summer work.</span>
+							</p>
+						</div>
+					</div>
+					
+					<div class="course" id="ap-es">
+						<div class="head">
+							<h4>AP Environmental Science</h4>
+							<span class="grade">11–12<sup>th</sup> Grade</span>
+							<div class="portrait">
+								<img src="http://iamrattlernation.com/ourpages/auto/profiles/782505/MOJAVEHS1477339190436.jpg">
+								<span class="name">Easley</span>
+							</div>
+						</div>
+						<div class="body">
+							<p>
+								The AP Environmental Science course is designed to be the equivalent of a one-semester,
+								introductory college course in environmental science, through which students engage with
+								the scientific principles, concepts, and methodologies required to understand the
+								interrelationships of the natural world. The course requires that students identify and
+								analyze natural and human-made environmental problems, evaluate the relative risks
+								associated with these problems, and examine alternative solutions for resolving or
+								preventing them. Environmental Science is interdisciplinary, embracing topics from
+								geology, biology, environmental studies, environmental science, chemistry, and
+								geography.
+							</p>
+						</div>
+					</div>
+					
+					<div class="course" id="ap-phys">
+						<div class="head">
+							<h4>AP Physics 1 and 2</h4>
+							<span class="grade">11–12<sup>th</sup> Grade</span>
+							<div class="portrait">
+								<img src="http://iamrattlernation.com/ourpages/auto/profiles/716100/MOJAVEHS1477344853556.jpg">
+								<span class="name">Hernandez</span>
+							</div>
+						</div>
+						<div class="body">
+							<p>
+								AP Physics 1 is a full-year course that is the equivalent of a first semester
+								introduction college course in algebra-based physics.
+							</p>
+							<p>
+								AP Physics 2 is a full-year course, equivalent to a second-semester introductory college
+								course in physics. The course covers fluid mechanics; thermodynamics; electricity and
+								magnetism; optics; and quantum, atomics, and nuclear physics.
+							</p>
+						</div>
+					</div>
+				</section>
+				
+				<section class="dept">
+					<h3>Social Studies</h3>
+					<div class="course" id="ap-geo">
+						<div class="head">
+							<h4>AP Human Geography</h4>
+							<span class="grade">9<sup>th</sup> Grade</span>
+							<div class="portrait">
+								<img src="http://iamrattlernation.com/ourpages/auto/profiles/783206/MOJAVEHS1477347720972.jpg">
+								<span class="name">Rather</span>
+							</div>
+						</div>
+						<div class="body">
+							<p>
+								The AP Human Geography course is equivalent to an introductory college-level course in
+								human geography. The course introduces students to the systematic study of patterns and
+								processes that have shaped human understanding, use, and alteration of Earth’s surface.
+								Students employ spatial concepts and landscape analysis to examine socioeconomic
+								organization and its environmental consequences. They also learn about the methods and
+								tools geographers use in their research and applications. The curriculum reflects the
+								goals of the National Geography Standards (2012).
+							</p>							
+							<p>
+								Students entering an AP Human Geography course should be capable of reading and
+								comprehending text written at the college level.  Students should be able to summarize
+								and evaluate textual information.  They should also be able to read and interpret maps
+								and graphic data.  The ability to perform basic mathematical operations is also useful
+								in this course.  Students should also possess fundamental skills in composition and
+								inquiry (research).  In both short-answer (ie. one-paragraph) and multi-paragraph essay
+								formats, they should be able to clearly articulate their summaries, analyses,
+								interpretations, and evaluations of information.
+							</p>
+						</div>
+					</div>
+					
+					<div class="course" id="ap-psych">
+						<div class="head">
+							<h4>AP Psychology</h4>
+							<span class="grade">10–12<sup>th</sup> Grade</span>
+							<div class="portrait">
+								<img src="http://iamrattlernation.com/ourpages/auto/profiles/716084/MOJAVEHS1477339373612.jpg">
+								<span class="name">Faulds</span>
+							</div>
+						</div>
+						<div class="body">
+							<p>
+								AP Psychology introduces students to the study of behavioral and mental processes of
+								human beings. Various theories about why we think and act the way we do are taught.
+								Vocabulary is an essential part of psychology; therefore, vocabulary is emphasized.
+								Students also learn about the ethics and methods psychologists use in their science and
+								practice. AP Psychology is an excellent choice for students interested in becoming a
+								psychologist or pursuing a medical or business career. Students have a chance to earn
+								college credit.
+							</p>
+						</div>
+					</div>
+					
+					<div class="course" id="ap-world">
+						<div class="head">
+							<h4>AP World History</h4>
+							<span class="grade">10<sup>th</sup> Grade</span>
+							<div class="portrait">
+								<img src="http://iamrattlernation.com/ourpages/auto/profiles/716074/MOJAVEHS1446573925499.jpg">
+								<span class="name">Dodski</span>
+							</div>
+						</div>
+						<div class="body">
+							<p>
+								The AP World History course focuses on developing students’ understanding of the world
+								history from approximately 8000 BCE to the present. This college-level course has
+								students investigate the content of world history for significant events, individuals,
+								developments, and processes in six historical periods, and develop and use the same
+								thinking skills and methods (analyzing primary and secondary sources, making historical
+								comparisons, chronological reasoning, and argumentation) employed by historians when
+								they study the past. The course also provides five themes (interaction between humans
+								and the environment; development and interaction of cultures; state building, expansion,
+								and conflict; creation, expansion, and interaction of economic systems; development and
+								transformation of social structures) that students explore throughout the course in
+								order to make connections among historical developments in different times and places
+								encompassing the five major geographical regions of the globe: Africa, the Americas,
+								Asia, Europe, and Oceania.
+								<span class="summer-work">This course has summer work.</span>
+							</p>
+						</div>
+					</div>
+					
+					<div class="course" id="ap-ush">
+						<div class="head">
+							<h4>AP US History</h4>
+							<span class="grade">11<sup>th</sup> Grade</span>
+							<div class="portrait">
+								<img src="http://iamrattlernation.com/ourpages/auto/profiles/726933/MOJAVEHS1477349163455.jpg">
+								<span class="name">Tye</span>
+							</div>
+						</div>
+						<div class="body">
+							<p>
+								The AP U.S. History course focuses on the development of historical thinking skills
+								(chronological reasoning, comparing and contextualizing, crafting historical arguments
+								using historical evidence, and interpreting and synthesizing historical narrative) and
+								the development of students’ abilities to think conceptually about U.S. history from
+								approximately 1491 to the present. Seven themes of equal importance – American and
+								National Identity; Migration and Settlement; Politics and Power; Work, Exchange, and
+								Technology; America in the World; Geography and the Environment; and Culture and Society
+								– provide areas of historical inquiry for investigation throughout the course. These
+								require students to reason historically about continuity and change over time and make
+								comparisons among various historical developments in different times and places. The
+								course also allows teachers flexibility across nine different periods of U.S. history
+								to teach topics of their choice in depth.
+								<span class="summer-work">This course has summer work.</span>
+							</p>
+						</div>
+					</div>
+					
+					<div class="course" id="ap-gov">
+						<div class="head">
+							<h4>AP Government</h4>
+							<span class="grade">12<sup>th</sup> Grade</span>
+							<div class="portrait">
+								<img src="http://iamrattlernation.com/ourpages/auto/profiles/716084/MOJAVEHS1477339373612.jpg">
+								<span class="name">Faulds</span>
+							</div>
+						</div>
+						<div class="body">
+							<p>
+								AP Government and Politics is a college level course that provides students with new and
+								interesting perspectives of government and politics in the United States. It includes
+								study of the media, political parties, interest groups and elections. Students use real
+								world examples and current events to interpret United States politics and the analysis
+								of  social issues and foreign policy. Students have the opportunity to earn college
+								credit by passing the AP test in May.  Government and Politics is an excellent
+								opportunity for the college bound student to learn about the impact of politics in their
+								everyday lives and develop their own political beliefs. 
+								<span class="summer-work">This course has summer work.</span>
+							</p>
+						</div>
+					</div>
+				</section>
+				
+				<section class="dept">
+					<h3>World Languages</h3>
+					<div class="course" id="ap-span">
+						<div class="head">
+							<h4>AP Spanish Language and Culture</h4>
+							<span class="grade">11–12<sup>th</sup> Grade</span>
+							<div class="portrait">
+								<img src="http://iamrattlernation.com/ourpages/auto/profiles/782461/MOJAVEHS1477336947595.jpg">
+								<span class="name">Burke</span>
+							</div>
+						</div>
+						<div class="body">
+							<p>
+								The AP World Languages and Cultures program features eight courses and exams and
+								includes the following languages: Chinese, French, German, Italian, Japanese, Latin, and
+								Spanish (both Language and Literature courses). In today’s global community, competence
+								in more than one language is an essential part of communication and cultural
+								understanding. Study of another language not only provides individuals with the ability
+								to express thoughts and ideas for their own purposes, but also provides them with access
+								to perspectives and knowledge that is only available through the language and culture.
+								The proficiencies acquired through the study of languages and literatures endow language
+								learners with cognitive, analytical, and communication skills that carry over into many
+								other areas of their academic studies. The three modes of communication (Interpersonal,
+								Interpretive, and Presentational) defined in the World-Readiness Standards for Learning
+								Languages and described in more detail in the ACTFL Performance Descriptors for Language
+								Learners, are foundational to AP World Languages and Cultures courses.
+							</p>
+						</div>
+					</div>
+				</section>
+	        </div>
+        </div>
+    </body>
+</html>
