@@ -13,14 +13,17 @@
 		<link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
         
         <style>
+	        #pageAsideWrapper.pageAsideLeftWrapper {
+                display: none;
+            }
+            
             *, *:after, *:before {
                 box-sizing: border-box;
             }
-            
-            html, body {
-				font-family: 'Lora', sans-serif;
-				font-size: 1.1em;
-            }
+
+			h2 {
+				margin: 0.83em 0;
+			}
 
             p {
                 margin-top: 0;
@@ -34,12 +37,14 @@
             }
 
             .container {
+	            font-family: 'Lora', sans-serif;
+	            font-size: 1.1em;
                 width: 800px;
                 margin-right: auto;
                 margin-left: auto;
             }
             
-            .content {
+            .page-content {
 	            width: 640px;
 	            margin-left: 160px;
             }
@@ -50,7 +55,7 @@
 	            padding: 14px 0;
 	            list-style: none;
 	            position: fixed;
-	            top: 32px;
+	            top: 320px;
 	            width: 140px;
             }
             
@@ -85,6 +90,7 @@
             
             .dept h3 {
 	            text-align: center;
+	            margin: 1em 0;
             }
             
             .course {
@@ -170,7 +176,7 @@
 		        </ul>
 	        </div>
 	        
-	        <div class="content">
+	        <div class="page-content">
 		        <h2>Advanced Placement (AP) Program</h2>
 				<p>
 					Welcome to Mojave High School's Advanced Placement (AP) Program! Here you and your student can learn
