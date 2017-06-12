@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -123,29 +123,22 @@
             }
             
             .well {
-	            padding: 20px;
-	            margin: 20px auto;
-	            margin-bottom: 40px;
-	            background-color: rgba(0, 128, 0, 0.25);
-	            width: 80%;
-	            border: 1px dotted green;
+				margin: 20px 10px;
             }
             
             .feature {
-	            text-align: center;
-	            margin-top: 20px;
-	            margin-bottom: 8px;
+	            margin: 20px 0;
             }
             
             .feature a {
-				background-color: rgb(255, 114, 48);
-				padding: 10px 30px;
-				text-decoration: none;
-				color: white;
+	            color: green;
+	            text-decoration: none;
+				font-weight: bold;
             }
             
             .feature a:hover {
-	            background-color: rgba(255, 114, 48, 0.80);
+	            color: rgba(0, 128, 0, 0.70);
+	            text-decoration: underline;
             }
             
             .sidebar-container {
@@ -294,9 +287,15 @@
 							scroll down to browse all of the offered courses.
 						</p>
 						<div class="well">
-							<p>Learn more about Mojave's Advanced Placement Program by reading our brochure!</p>
 							<div class="feature">
+								<i class="fa fa-map-o fa-3x fa-fw fa-pull-left" aria-hidden="true"></i>
 								<a href="https://cdn.rawgit.com/jwmay/mhs-ap-program/gh-pages/files/Mojave_AP_Program_Brochure.pdf" target="_blank">Brochure</a>
+								<p>Learn more about Mojave's Advanced Placement Program by reading our brochure!</p>
+							</div>
+							<div class="feature">
+								<i class="fa fa-file-text-o fa-3x fa-fw fa-pull-left" aria-hidden="true"></i>
+								<a href="http://www.iamrattlernation.com/apps/pages/index.jsp?uREC_ID=305760&type=d&termREC_ID=&pREC_ID=628548">Summer Work</a>
+								<p>Looking for your AP summer work? Find it here.</p>								
 							</div>
 						</div>
 						
@@ -492,7 +491,7 @@
 								</div>
 							</div>
 							
-							<div class="course" id="ap-es">
+							<div class="course hidden" id="ap-es">
 								<div class="head">
 									<h4>AP Environmental Science</h4>
 									<span class="grade">11–12<sup>th</sup> Grade</span>
@@ -600,8 +599,8 @@
 									<h4>AP World History</h4>
 									<span class="grade">10<sup>th</sup> Grade</span>
 									<div class="portrait">
-										<img src="http://iamrattlernation.com/ourpages/auto/profiles/716074/MOJAVEHS1446573925499.jpg">
-										<span class="name">Dodski</span>
+										<img src="http://iamrattlernation.com/ourpages/auto/profiles/726933/MOJAVEHS1477349163455.jpg">
+										<span class="name">Tye</span>
 									</div>
 								</div>
 								<div class="body">
